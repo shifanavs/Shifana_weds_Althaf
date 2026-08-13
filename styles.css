@@ -15,7 +15,22 @@ html{scroll-behavior:smooth}
 body{margin:0;background:var(--cream);color:var(--text);font-family:"Cormorant Garamond",Georgia,serif;font-size:18px}
 a{text-decoration:none;color:inherit}
 button{font:inherit}
-.loader{position:fixed;inset:0;z-index:9999;background:var(--wine);color:#fff5e8;display:grid;place-items:center;transition:opacity .7s,visibility .7s}
+.loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  color: #fff5e8;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(91, 24, 40, 0.58),
+      rgba(91, 24, 40, 0.58)
+    ),
+    url("assets/shifana-althaf-photo.jpg") center center / cover no-repeat;
+  transition: opacity .7s, visibility .7s;
+}
 .loader.hide{opacity:0;visibility:hidden}
 .loader-inner{text-align:center;letter-spacing:2px}
 .loader-inner .arabic{font-size:30px;direction:rtl;margin-bottom:18px}
