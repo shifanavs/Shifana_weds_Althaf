@@ -5,6 +5,7 @@ Files:
 - styles.css
 - script.js
 - assets/invitation.jpg
+- shifana-althaf-photo.jpg
 
 EVENT DETAILS USED:
 Date: 04 October 2026
